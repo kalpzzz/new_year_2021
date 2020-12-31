@@ -1,0 +1,10 @@
+from time import sleep
+def new_year(name):
+    for i in reversed(range(11)):
+        sleep(1)
+        print(i)
+        if i==1:
+            print("Happy New Year "+ str(name)+"!!!")
+            print("Wishing you a year full of blessing and filled with a new adventure. Happy new year 2021!")
+            return
+new_year("Your_Name")
